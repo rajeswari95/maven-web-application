@@ -21,9 +21,9 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://13.233.11.74:9000/</sonar.host.url>
-		<sonar.login>sonarmithun</sonar.login>
-		<sonar.password>sonar</sonar.password>
+		<sonar.host.url>http://ec2-15-206-171-213.ap-south-1.compute.amazonaws.com:9000/</sonar.host.url>
+		<sonar.login>admin</sonar.login>
+		<sonar.password>admin</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -98,13 +98,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://52.66.203.191:8081/repository/amazon/</url>
+	      <url>http://35.154.116.16:8081/repository/amazon/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://52.66.203.191:8081/repository/flipkart/</url>
+	      <url>http://35.154.116.16:8081/repository/flipkart//</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
